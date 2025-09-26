@@ -20,9 +20,9 @@ public class Chante extends Bot {
     // Called when a new round is started -> initialize and do some movement
     @Override
     public void run() {
-        setBodyColor(Color.BLUE);
-        setTurretColor(Color.BLUE);
-        setRadarColor(Color.BLACK);
+        setBodyColor(Color.PURPLE);
+        setTurretColor(Color.PURPLE);
+        setRadarColor(Color.YELLOW);
         setScanColor(Color.YELLOW);
 
         // Repeat while the bot is running
@@ -52,7 +52,7 @@ public class Chante extends Bot {
             fire(3);
         }
         if (e.isRammed()) {
-            turnRight(10);
+            turnRight(15);
         }
     }
 }
