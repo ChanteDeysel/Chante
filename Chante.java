@@ -52,7 +52,7 @@ public class Chante extends Bot {
             fire(3);
         }
         if (e.isRammed()) {
-            turnRight(15);
+            turnRight(7);
         }
     }
 }
